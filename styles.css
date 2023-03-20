@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0%;
+    font-size: 16px;
+    font-family: 'Sono', sans-serif;
+    line-height: 1.5;
+    background-color: #2C3333;
+    color: white;
+}
+.fecha {
+    background-color:#CBE4DE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #0E8388;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.fechaDerecha {
+    display: flex;
+    align-items: center;
+    color:black;
+}
+
+#fechaNumero {
+    background-color:#CBE4DE;
+    font-size: 30px;
+}
+
+#fechaTexto {
+    background-color:#CBE4DE;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-left: 7px;
+}
+
+
+#fechaNumero,
+#fechaTexto {
+    background-color: #CBE4DE;
+    color:black;
+    font-weight: bold;
+}
+
+#fechaMes,
+#fechaAño {
+    background-color: #CBE4DE;
+    margin-left: 7px;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    color: #2E4F4F;
+}
+
+.container {
+    width: 500px;
+    background-color: white;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+.tareasList {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%; 
+}
+
+
+form {
+    display: flex;
+    border-radius:15px ;
+    -webkit-border-radius:15px ;
+    -moz-border-radius:15px ;
+    -ms-border-radius:15px ;
+    -o-border-radius:15px ;
+}
+
+
+input {
+    padding: 15px;
+    width: 450px;
+    border-radius:15px;
+}
+
+.btn-add {
+    width: 30px;
+    margin:2px;
+    padding: 5px;
+    color: white;
+    background-color: green;
+    font-family: fantasy;
+    border: 2px solid grey;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+.btn-add:hover {
+    cursor: pointer;
+    background-color: #0E8388;
+}
+
+.empty {
+    color: grey;
+}
+
+.toDo {
+    color: gray;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%; 
+    
+}
+
+li {
+    display: flex;
+    background-color: #2E4F4F;
+    padding: 5px;
+    margin: 3px;
+    width: 400px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+li p {
+    
+
+}
+
+
+.btn-delete {
+    width: 30px;
+    margin:2px;
+    padding: 5px;
+    color: white;
+    background-color: red;
+    font-family: fantasy;
+    border: 2px solid grey;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    
+    align-self: center;
+    
+}
+
+
+.btn-delete:hover {
+    cursor: pointer;
+    background-color: purple;
+
+}
